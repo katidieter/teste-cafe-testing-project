@@ -1,0 +1,21 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "Execute end-to-end testing",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "iphone6": "testcafe chrome:emulation:device=iphone 6 tests/ -e",
+    "test-chrome-headless": "testcafe 'chrome:headless' tests/ -e",
+    "test-chrome": "testcafe chrome tests/ -e",
+    "test-firefox": "testcafe 'firefox:headless' test/ -e -S -s screenshots",
+    "test": "yarn test-iphone && yarn test-chrome && yarn test-firefox"
+  },
+  "author": "Katieli Bianca Dieter",
+  "license": "ISC",
+  "dependencies": {
+    "testcafe": "^1.1.4"
+  }
+}

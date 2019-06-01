@@ -8,40 +8,42 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-
-
-```
-Give examples
-```
+ - NodeJS (version 8 or newer);
+ - npm;
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
 ```
-Give the example
+git clone https://github.com/katidieter/teste-cafe-testing-project.git
 ```
 
-And repeat
-
 ```
-until finished
+npm install
 ```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+```
+npm run test
+```
+```
+npm run iphone6
+```
+```
+npm run test-chrome-headless
+```
+```
+npm run test-chrome
+```
+```
+npm run test-firefox
+```
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Katieli B. Dieter** - *Initial work* 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License 
+Copyright Katieli Bianca Dieter

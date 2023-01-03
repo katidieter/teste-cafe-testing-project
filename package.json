@@ -16,6 +16,6 @@
   "author": "Katieli Bianca Dieter",
   "license": "ISC",
   "dependencies": {
-    "testcafe": "^1.1.4"
+    "testcafe": "^1.20.1"
   }
 }
